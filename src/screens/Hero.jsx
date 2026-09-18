@@ -1,4 +1,5 @@
 import { Button } from "../components/Button";
+import { Metrick } from "../components/Metrick";
 
 export function Hero() {
   return (
@@ -30,6 +31,12 @@ export function Hero() {
           </div>
         </aside>
       </section>
+      <footer className="hero-metric-container">
+        <Metrick title={"Offline-First"} text={"RESILIENCIA OPERATIVA"} />
+        <Metrick title={"100&"} text={"CORE WEB VITALS"} />
+        <Metrick title={"<0.5s"} text={"CARGA OPTIMIZADA"} />
+        <Metrick title={"End-to-End"} text={"SOLUCION LLAVE EN MANO"} />
+      </footer>
     </main>
   );
 }
