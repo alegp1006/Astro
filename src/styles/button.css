@@ -5,7 +5,7 @@
   align-items: center;
   color: var(--on-background);
   background-color: var(--background);
-  border: 1px solid var(--background);
+  border: 1px solid var(--on-background);
   cursor: pointer;
 }
 
