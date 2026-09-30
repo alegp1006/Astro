@@ -1,5 +1,6 @@
 import { CardInfo } from "../components/CardInfo";
 import { Heading } from "../components/Heading";
+import "../styles/whyAstro.css";
 
 export function WhyAstro() {
   return (

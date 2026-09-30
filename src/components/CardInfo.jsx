@@ -1,3 +1,5 @@
+import "../styles/cardInfo.css";
+
 export function CardInfo({ headerText, title, text }) {
   return (
     <article className="card-info">

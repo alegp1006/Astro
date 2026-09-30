@@ -17,6 +17,7 @@
 }
 
 .manifest-container > p {
+  max-width: 1150px;
   color: var(--background);
   font-family: "spaceGroteskBold";
   font-size: 22px;
