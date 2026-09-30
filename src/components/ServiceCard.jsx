@@ -1,5 +1,5 @@
 import { ListServices } from "./ListServices";
-
+import "../styles/serviceCard.css";
 export function ServiceCard({
   listServices,
   headerNum,
@@ -13,19 +13,20 @@ export function ServiceCard({
 }) {
   return (
     <article className="service">
-      <header className="sevice-card">
-        <p>{headerNum}</p>
-        <p className="sevice-card-text">{headerText}</p>
-      </header>
-      <div className="service-card-main">
+      <div className="service-container">
+        <header className="service-card-header">
+          <p className="service-number">{headerNum}</p>
+          <p className="service-card-text-header">{headerText}</p>
+        </header>
         <h3 className="service-card-title">{title}</h3>
         <p className="service-card-text">{text}</p>
+        <div className="service-card-pricing">
+          <p className="service-card-pricing-price">{pricing}</p>
+          <p className="service-card-pricing-text">{pricingText}</p>
+        </div>
+        <ListServices services={listServices} />
       </div>
-      <div className="service-card-pricing">
-        <p className="service-card-pricing-price">{pricing}</p>
-        <p className="service-card-pricing-text">{pricingText}</p>
-      </div>
-      <ListServices services={listServices} />
+
       <a href={linkHref} className="service-card-link">
         {linkText}
       </a>

@@ -1,15 +1,16 @@
 import { Heading } from "../components/Heading";
 import { ServiceCard } from "../components/ServiceCard";
+import "../styles/services.css";
 
 export function Services() {
   return (
-    <section>
+    <section className="services">
       <Heading
         span={"02 // CATÁLOGO DE SOLUCIONES"}
         h2={"Servicios y Soluciones Digitales"}
         text={"INVERSION TRANSPARENTE // ENTREGA GARANTIZADA"}
       />
-      <section>
+      <section className="services-list">
         <ServiceCard
           headerNum={"01"}
           headerText={"GASTRONOMIA & RETAIL"}

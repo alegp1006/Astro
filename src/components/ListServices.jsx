@@ -1,7 +1,13 @@
+import "../styles/listServices.css";
+
 export function ListServices({ services = [] }) {
-  return services.map((s, index) => (
-    <li className="list-sevices" key={s + index}>
-      {s}
-    </li>
-  ));
+  return (
+    <ul className="list-services">
+      {services.map((s, index) => (
+        <li className="list-services-item" key={s + index}>
+          {s}
+        </li>
+      ))}
+    </ul>
+  );
 }
