@@ -1,0 +1,33 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 64px;
+  padding: 0 12px;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0;
+}
+
+@media screen and (width > 700px) {
+  .contact {
+    padding: 0 24px;
+  }
+  .form-container {
+    padding: 24px 0;
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (width > 1024px) {
+  .contact {
+    padding: 0 48px;
+  }
+}

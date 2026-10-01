@@ -1,4 +1,5 @@
 import { Whatsapp } from "./Icons";
+import "../styles/formInfo.css";
 
 export function FormInfo({ number, gmail, instagram, facebook }) {
   return (
@@ -14,15 +15,15 @@ export function FormInfo({ number, gmail, instagram, facebook }) {
         </div>
         <div className="form-info-social-media">
           <div className="social-media-container">
-            <p>CORREO CORPORATIVO</p>
-            <p>{gmail}</p>
+            <p className="social-media-title">CORREO CORPORATIVO</p>
+            <p className="social-media-link">{gmail}</p>
           </div>
           <div className="social-media-container">
-            <p>TELÉFONO / WHATSAPP</p>
-            <p>{number}</p>
+            <p className="social-media-title">TELÉFONO / WHATSAPP</p>
+            <p className="social-media-link">{number}</p>
           </div>
           <div className="social-media-container">
-            <p>SIGUENOS Y CONOCE MÁS</p>
+            <p className="social-media-title">SIGUENOS Y CONOCE MÁS</p>
             <div className="social-media-links">
               <a href={instagram}>INSTAGRAM</a>
               <a href={facebook}>FACEBOOK</a>
@@ -30,9 +31,9 @@ export function FormInfo({ number, gmail, instagram, facebook }) {
           </div>
         </div>
       </div>
-      <div>
+      <div className="margin-form-info">
         <div className=" square"></div>
-        RESPUESTA EN MENOS DE 24 HORAS HÁBILES
+        <p>RESPUESTA EN MENOS DE 24 HORAS HÁBILES</p>
       </div>
     </article>
   );
