@@ -1,4 +1,4 @@
-footer {
+.footer {
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -75,7 +75,7 @@ footer {
 }
 
 @media screen and (width >700px) {
-  footer {
+  .footer {
     padding: 64px 24px;
   }
   .footer-container {
@@ -85,7 +85,7 @@ footer {
 }
 
 @media screen and (width > 1024px) {
-  footer {
+  .footer {
     padding: 64px 48px;
   }
   .footer-container {
