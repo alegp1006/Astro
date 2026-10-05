@@ -5,7 +5,7 @@ import "../styles/contact.css";
 
 export function Contact() {
   return (
-    <section className="contact">
+    <section id="contacto" className="contact">
       <Heading
         span={"04 // CONTACTO & ADQUISICIÓN"}
         h2={"¿LISTO PARA TRANSFORMAR LA PRESENCIA DIGITAL DE TU EMPRESA?"}

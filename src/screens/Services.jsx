@@ -4,7 +4,7 @@ import "../styles/services.css";
 
 export function Services() {
   return (
-    <section className="services">
+    <section id="servicios" className="services">
       <Heading
         span={"02 // CATÁLOGO DE SOLUCIONES"}
         h2={"Servicios y Soluciones Digitales"}

@@ -6,7 +6,7 @@ export function Navbar() {
       <a className="link" href="#soluciones">
         SOLUCIONES
       </a>
-      <a className="link" href="#servicos">
+      <a className="link" href="#servicios">
         SERVICIO
       </a>
       <a className="link" href="#tecnologia">

@@ -3,7 +3,7 @@ import { Card } from "../components/Card";
 import { Heading } from "../components/Heading";
 export function Solutions() {
   return (
-    <section className="solutions">
+    <section id="soluciones" className="solutions">
       <div className="solutions-container">
         <Heading
           span={"01 // OPTIMIZACIÓN DIGITAL"}
