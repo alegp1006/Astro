@@ -1,0 +1,119 @@
+.form-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 5px;
+}
+
+.margin-form-info {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+  padding-top: 16px;
+  border-top: 1px solid var(--on-background);
+}
+.margin-form-info > p {
+  font-family: "spaceGroteskBold";
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+  color: var(--outline);
+}
+
+.square {
+  width: 10px;
+  height: 10px;
+  background-color: var(--on-background);
+}
+
+.form-info-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 32px;
+}
+.form-info-text {
+  max-width: 400px;
+  font-size: 18px;
+  line-height: -0.18px;
+  letter-spacing: 0.5px;
+  color: var(--outline-variant);
+}
+.form-info-link {
+  background-color: var(--on-background);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  border: 1px solid var(--on-background);
+}
+.form-info-link > a {
+  font-family: "spaceGroteskBold";
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.98px;
+  text-decoration: none;
+  color: var(--background);
+}
+
+.form-info-social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 16px;
+  padding-top: 16px;
+}
+.social-media-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 4px;
+}
+
+.social-media-title {
+  font-family: "spaceGroteskBold";
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: var(--outline);
+}
+.social-media-link {
+  font-family: "spaceGroteskBold";
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.18px;
+  text-decoration: none;
+}
+
+.social-media-links {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.social-media-links a {
+  font-family: "spaceGroteskBold";
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 4px 10px;
+  border: 1px solid var(--on-background);
+}
+@media screen and (width > 700px) {
+  .form-info {
+    padding-right: 48px;
+    border-right: 1px solid var(--on-background);
+  }
+}

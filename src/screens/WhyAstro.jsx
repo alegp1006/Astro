@@ -1,9 +1,10 @@
 import { CardInfo } from "../components/CardInfo";
 import { Heading } from "../components/Heading";
+import "../styles/whyAstro.css";
 
 export function WhyAstro() {
   return (
-    <section className="advantages">
+    <section id="tecnologia" className="advantages">
       <Heading
         span={"03 // VENTAJAS TECNOLÓGICAS & ARQUITECTURA"}
         h2={"Por qué nuestra tecnología es diferente (Diferenciales)"}

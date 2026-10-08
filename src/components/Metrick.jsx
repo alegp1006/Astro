@@ -1,3 +1,5 @@
+import "../styles/metrick.css";
+
 export function Metrick({ title, text }) {
   return (
     <div className="metrick-box">

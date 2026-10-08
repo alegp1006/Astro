@@ -1,0 +1,21 @@
+.tag-list {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 4px;
+  padding-top: 16px;
+  border-top: 1px solid var(--on-background);
+}
+
+.tags {
+  list-style: none;
+  padding: 4px 8px;
+  border: 1px solid var(--on-background);
+  color: var(--on-background);
+  font-family: "SpaceGroteskBold";
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 12px;
+  text-align: start;
+}

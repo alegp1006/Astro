@@ -1,3 +1,11 @@
+import "../styles/tags.css";
+
 export function Tags({ tags }) {
-  return tags.map((t) => <p className="tags">{t}</p>);
+  return (
+    <ul className="tag-list">
+      {tags.map((t) => (
+        <li className="tags">{t}</li>
+      ))}
+    </ul>
+  );
 }

@@ -1,14 +1,14 @@
 @font-face {
   font-family: "inter";
-  src: url("/public/fonts/Inter_18pt-Regular.woff");
+  src: url("/fonts/Inter_18pt-Regular.woff");
 }
 @font-face {
   font-family: "spaceGrotesk";
-  src: url("/public/fonts/SpaceGrotesk-Regular.woff");
+  src: url("/fonts/SpaceGrotesk-Regular.woff");
 }
 @font-face {
   font-family: "spaceGroteskBold";
-  src: url("/public/fonts/SpaceGrotesk-Bold.woff");
+  src: url("/fonts/SpaceGrotesk-Bold.woff");
   font-weight: bold;
 }
 
@@ -25,6 +25,7 @@
 }
 
 * {
+  color: var(--on-background);
   font-family: "inter";
   margin: 0;
   padding: 0;
@@ -39,4 +40,5 @@ h4,
 h5,
 h6 {
   font-family: "spaceGroteskBold";
+  color: var(--on-background);
 }

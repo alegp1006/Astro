@@ -1,0 +1,82 @@
+.manifest {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  background-color: var(--on-background);
+  padding: 64px 0;
+}
+
+.manifest-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  padding: 12px;
+}
+
+.manifest-container > p {
+  max-width: 1150px;
+  color: var(--background);
+  font-family: "spaceGroteskBold";
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: -1.22px;
+  text-align: start;
+}
+
+.manifest-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--outline-variant);
+}
+.manifest-header-span {
+  color: var(--background);
+  font-family: "spaceGroteskBold";
+  font-size: 8px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: start;
+}
+.manifest-header-text {
+  color: var(--outline-variant);
+  font-family: "spaceGroteskBold";
+  font-size: 8px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: start;
+}
+
+@media screen and (width > 700px) {
+  .manifest-container {
+    gap: 32px;
+    padding: 24px;
+  }
+  .manifest-container > p {
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -1.52px;
+  }
+  .manifest-header-span {
+    font-size: 10px;
+  }
+  .manifest-header-text {
+    font-size: 10px;
+  }
+}
+
+@media screen and (width > 1024px) {
+  .manifest-container {
+    gap: 64px;
+    padding: 48px;
+  }
+  .manifest-container > p {
+    font-size: 64px;
+    line-height: 68px;
+    letter-spacing: -1.92px;
+  }
+}

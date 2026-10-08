@@ -1,0 +1,18 @@
+.list-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 4px;
+  padding-top: 12px;
+}
+
+.list-services-item {
+  margin: 0;
+  padding: 0;
+  list-style: square inside;
+  color: var(--outline-variant);
+}
+.list-services-item::marker {
+  color: var(--on-background);
+}

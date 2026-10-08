@@ -1,15 +1,16 @@
 import { Heading } from "../components/Heading";
 import { ServiceCard } from "../components/ServiceCard";
+import "../styles/services.css";
 
 export function Services() {
   return (
-    <section>
+    <section id="servicios" className="services">
       <Heading
         span={"02 // CATÁLOGO DE SOLUCIONES"}
         h2={"Servicios y Soluciones Digitales"}
         text={"INVERSION TRANSPARENTE // ENTREGA GARANTIZADA"}
       />
-      <section>
+      <section className="services-list">
         <ServiceCard
           headerNum={"01"}
           headerText={"GASTRONOMIA & RETAIL"}
@@ -27,8 +28,6 @@ export function Services() {
             "Menú web de alta velocidad, diseñado para minimizar el consumo de datos de los usuarios.",
             "Filtros avanzados y exportación en PDF: Permite a los clientes filtrar por categorías/ingredientes y descargar el menú completo en formato PDF para consulta sin conexión.",
             "Soporte offline y persistencia de datos: La información permanece accesible para los clientes incluso ante caídas o inestabilidad de la red.",
-            "Categorías estructuradas, imágenes comprimidas de alta resolución, buscador integrado y actualización sencilla de precios o carta.",
-            "Enrutamiento directo de pedidos y reservas hacia el WhatsApp corporativo.",
           ]}
         />
         <ServiceCard

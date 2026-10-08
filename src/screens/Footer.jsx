@@ -1,12 +1,13 @@
 import logo from "../assets/logo.svg";
+import "../styles/footer.css";
 
 export function Footer() {
   return (
-    <footer>
-      <section>
+    <footer className="footer">
+      <section className="footer-container">
         <article className="footer-article">
           <img src={logo} alt="logo" />
-          <p>
+          <p className="footer-article-text">
             Software & Soluciones Digitales. Desarrollamos productos digitales
             de alto rendimiento: páginas web modernas y sistemas interactivos
             para impulsar tu negocio.
@@ -38,8 +39,8 @@ export function Footer() {
           </ul>
         </article>
         <article className="footer-article">
-          <p>ATENCION DIRECTA</p>
-          <p>
+          <p className="footer-nav">ATENCION DIRECTA</p>
+          <p className="footer-article-text">
             contacto@astro.agency WhatsApp & Canales Digitales Despliegue Llave
             en Mano
           </p>
