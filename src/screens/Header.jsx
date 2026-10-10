@@ -26,7 +26,7 @@ export function Header() {
 
           <Navbar />
 
-          <Button label={"INICIAR MI PROYECTO"} />
+          <Button href={"#contacto"} label={"INICIAR MI PROYECTO"} />
         </div>
       </section>
     </header>

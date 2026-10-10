@@ -21,7 +21,6 @@ export function useForm() {
       ...prevState,
       [e.target.name]: e.target.value,
     }));
-    console.log(formData);
   };
 
   const handleSendEmail = async (e) => {
@@ -40,5 +39,5 @@ export function useForm() {
     //sendmail({ payload });
   };
 
-  return { formData, handleChangeForm, handleSendEmail };
+  return { formData, setFormData, handleChangeForm, handleSendEmail };
 }

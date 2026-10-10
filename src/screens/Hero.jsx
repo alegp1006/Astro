@@ -28,8 +28,9 @@ export function Hero() {
               experiencia de tus clientes y potencian tus ventas.
             </p>
             <div className="hero-section-buttons-container">
-              <Button label={"INICIAR MI PROYECTO"} />
+              <Button href={"#contacto"} label={"INICIAR MI PROYECTO"} />
               <Button
+                href={"#servicios"}
                 activeStyleVariant={true}
                 label={"VER SERVICIOS DISPONIBLES"}
               />

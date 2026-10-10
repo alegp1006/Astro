@@ -21,7 +21,7 @@ export function Services() {
           pricing={"$150 USD"}
           pricingText={"INVERSIÓN ÚNICA // MATERIAL FÍSICO INCLUIDO"}
           linkText={"SOLICITAR MENU QR"}
-          linkHref={"#"}
+          linkHref={"#contacto"}
           listServices={[
             "Entrega de material físico: Incluye 10 piezas físicas de soportes/soportes de mesa con el código QR impreso, listas para colocar en mesas o barra.",
             "Código QR dinámico y personalizado, listo también para difusión digital.",
@@ -40,7 +40,7 @@ export function Services() {
           pricing={"$250 USD"}
           pricingText={"INVERSIÓN ÚNICA // CODIGO 100% PROPIETARIO"}
           linkText={"SOLICITAR PÁGINA WEB"}
-          linkHref={"#"}
+          linkHref={"#contacto"}
           listServices={[
             "Diseño UX/UI personalizado, alineado estrictamente a la identidad e imagen de tu marca.",
             "Arquitectura SPA (Single Page Application): navegación fluida, instantánea y libre de recargas molestas.",
