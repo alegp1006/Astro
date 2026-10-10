@@ -1,6 +1,7 @@
 import { Form } from "../components/Form";
 import { FormInfo } from "../components/FormInfo";
 import { Heading } from "../components/Heading";
+import { Data } from "../data/data";
 import "../styles/contact.css";
 
 export function Contact() {
@@ -13,10 +14,10 @@ export function Contact() {
       />
       <aside className="form-container">
         <FormInfo
-          number={"5354756826"}
-          instagram={"instagram"}
-          facebook={"facebook"}
-          gmail={"gamil"}
+          number={`+53 ${Data.phone}`}
+          instagram={Data.instagram}
+          facebook={Data.facebook}
+          gmail={Data.email}
         />
         <Form />
       </aside>

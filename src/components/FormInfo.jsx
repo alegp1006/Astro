@@ -10,7 +10,7 @@ export function FormInfo({ number, gmail, instagram, facebook }) {
           confiable y adaptada a las necesidades operativas de tu negocio.
         </p>
         <div className="form-info-link">
-          <a href="">INICIAR PROYECTO VÍA WHATSAPP</a>
+          <a href="#">INICIAR PROYECTO VÍA WHATSAPP</a>
           <Whatsapp />
         </div>
         <div className="form-info-social-media">
