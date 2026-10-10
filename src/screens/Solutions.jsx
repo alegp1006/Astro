@@ -14,18 +14,18 @@ export function Solutions() {
           <Card
             headerNum={"01"}
             headerText={"CANAL INDEPENDIENTE"}
-            title={"Evolución hacia una infraestructura digital propia"}
+            title={"Adiós a la dependencia de las redes sociales"}
             text={
-              "Supera las limitaciones de depender únicamente de redes sociales. Construimos plataformas y puntos de contacto digitales estructurados que aportan credibilidad, automatizan la atención y centralizan el flujo de tus clientes."
+              "Tener solo Instagram o Facebook te expone a perder clientes si te bloquean la cuenta o si el usuario no tiene red social. Te creamos tu propia casa digital, profesional y siempre disponible."
             }
             tags={["CONTROL TOTAL", "AUTOMATIZACIÓN"]}
           />
           <Card
             headerNum={"02"}
             headerText={"ALTO RENDIMIENTO"}
-            title={"Rendimiento de software y velocidad de carga"}
+            title={"Carga instantánea y ahorro de datos"}
             text={
-              "Las fallas de rendimiento y la lentitud en la navegación provocan pérdidas directas de conversión. Implementamos arquitecturas web ligeras y optimizadas para garantizar un procesamiento fluido y un consumo mínimo de datos móviles."
+              "Si tu web tarda en cargar, el cliente la cierra y perdiste una venta. Construimos plataformas ultra ligeras diseñadas para gastar el mínimo de megas de tus clientes."
             }
             tags={["SUB-SECONF", "AHORRO DE DATOS"]}
           />
@@ -41,18 +41,18 @@ export function Solutions() {
           <Card
             headerNum={"04"}
             headerText={"CONVERSIÓN DIRECTA"}
-            title={"Experiencia de usuario (UX/UI) orientada a la conversión"}
+            title={"Ventas directas a tu WhatsApp"}
             text={
-              "Simplificamos la interacción del cliente eliminando fricciones en el proceso. Desarrollamos interfaces intuitivas —desde sitios corporativos hasta sistemas dinámicos como menús digitales— diseñadas para convertir visitas en interacciones efectivas."
+              "Eliminamos intermediarios. Cada pedido, reserva o consulta llega directamente estructurado a tu chat de WhatsApp listo para concretar."
             }
             tags={["CERO FRICCION", "DISEÑO INTUITIVO"]}
           />
           <Card
             headerNum={"05"}
             headerText={"DESARROLLO INTEGRAL"}
-            title={"Desarrollo integral de software End-to-End"}
+            title={"Servicio Llave en Mano"}
             text={
-              "Eliminamos los errores de integración y falta de coherencia al delegar diseño y código a diferentes proveedores. En Astro asumimos el ciclo completo del proyecto: diseño de interfaz, desarrollo de código a la medida y despliegue técnico."
+              "Nos encargamos de todo: desde el diseño y la programación hasta la entrega. Tu negocio queda listo para operar desde el primer día."
             }
             tags={["DISEÑO UI/UX", "FRONTEND & BACKEND", "DESPLIEGUE TECNICO"]}
           />

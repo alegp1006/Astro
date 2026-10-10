@@ -18,21 +18,24 @@ export function Hero() {
         </header>
         <section className="hero-section">
           <h1>
-            DESARROLLAMOS SOFTWARE Y SOLUCIONES DIGITALES PARA IMPULSAR TU
-            NEGOCIO.
+            Webs y sistemas digitales ultra rápidos que venden, incluso con mala
+            conexión.
           </h1>
           <aside className="hero-section-aside">
             <p>
-              En Astro creamos productos digitales de alto rendimiento: desde
-              páginas web modernas hasta sistemas interactivos que optimizan la
-              experiencia de tus clientes y potencian tus ventas.
+              En Astro diseñamos páginas web y menús interactivos optimizados:
+              carga instantanea, consumo mínimo de datos móviles y siguen
+              funcionando aunque halla perdida de red.
             </p>
             <div className="hero-section-buttons-container">
-              <Button href={"#contacto"} label={"INICIAR MI PROYECTO"} />
+              <Button
+                href={"#contacto"}
+                label={"INICIAR MI PROYECTO POR WHATSAPP"}
+              />
               <Button
                 href={"#servicios"}
                 activeStyleVariant={true}
-                label={"VER SERVICIOS DISPONIBLES"}
+                label={"VER DEMOS DE SERVICIOS"}
               />
             </div>
           </aside>
