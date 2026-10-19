@@ -1,4 +1,5 @@
 import logo from "../assets/logo.svg";
+import { Data } from "../data/data";
 import "../styles/footer.css";
 
 export function Footer() {
@@ -6,7 +7,9 @@ export function Footer() {
     <footer className="footer">
       <section className="footer-container">
         <article className="footer-article">
-          <img src={logo} alt="logo" />
+          <a href="#">
+            <img src={logo} alt="logo-astro-principal" />
+          </a>
           <p className="footer-article-text">
             Software & Soluciones Digitales. Desarrollamos productos digitales
             de alto rendimiento: páginas web modernas y sistemas interactivos
@@ -17,22 +20,22 @@ export function Footer() {
           <p className="footer-nav">NAVEGACIÓN</p>
           <ul className="footer-list">
             <li className="footer-list-item">
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="#soluciones">
                 Soluciones
               </a>
             </li>
             <li className="footer-list-item">
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="#servicios">
                 Servicios
               </a>
             </li>
             <li className="footer-list-item">
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="#tecnologia">
                 Tecnología
               </a>
             </li>
             <li className="footer-list-item">
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="#contacto">
                 Contacto
               </a>
             </li>
@@ -40,10 +43,33 @@ export function Footer() {
         </article>
         <article className="footer-article">
           <p className="footer-nav">ATENCION DIRECTA</p>
-          <p className="footer-article-text">
-            contacto@astro.agency WhatsApp & Canales Digitales Despliegue Llave
-            en Mano
-          </p>
+          <ul className="footer-list">
+            <li className="footer-list-item">
+              <a className="footer-link" href={`mailto:${Data.email}`}>
+                Gmail
+              </a>
+            </li>
+            <li className="footer-list-item">
+              <a className="footer-link" href={Data.phone}>
+                WhatsApp
+              </a>
+            </li>
+            <li className="footer-list-item">
+              <a className="footer-link" href={`tel:${Data.phone}`}>
+                telefono
+              </a>
+            </li>
+            <li className="footer-list-item">
+              <a className="footer-link" href={Data.instagram}>
+                Instagram
+              </a>
+            </li>
+            <li className="footer-list-item">
+              <a className="footer-link" href={Data.facebook}>
+                Facebook
+              </a>
+            </li>
+          </ul>
         </article>
       </section>
       <div className="margin-footer">

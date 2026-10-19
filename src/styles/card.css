@@ -72,4 +72,7 @@
   .card {
     padding: 32px;
   }
+  .card-header-text {
+    font-size: 12px;
+  }
 }

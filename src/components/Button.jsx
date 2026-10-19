@@ -1,9 +1,11 @@
 import "../styles/button.css";
 
-export function Button({ label, activeStyleVariant = false }) {
+export function Button({ label, activeStyleVariant = false, href }) {
   return (
-    <button className={activeStyleVariant ? "button-white" : "button-black"}>
+    <a
+      href={href}
+      className={activeStyleVariant ? "button-white" : "button-black"}>
       {label}
-    </button>
+    </a>
   );
 }

@@ -56,8 +56,15 @@
   background-color: var(--on-background);
   border: 1px solid var(--on-background);
 }
+.form-button:hover {
+  cursor: pointer;
+}
+
 @media screen and (width > 700px) {
   .form {
     padding: 0 0 35px 32px;
+  }
+  .label-text {
+    font-size: 12px;
   }
 }
