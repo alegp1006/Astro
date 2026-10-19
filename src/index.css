@@ -15,8 +15,9 @@
 :root {
   --background: #f9f9f9;
   --on-background: #1a1c1c;
-  --outline: #7e7576;
-  --outline-variant: #474747;
+  --outline: #5b5252;
+  --outline-variant: #3b3b3b;
+  --outline-variant-background: #a8a8a8;
   background-color: var(--background);
   font-synthesis: none;
   text-rendering: optimizeLegibility;

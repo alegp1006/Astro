@@ -43,7 +43,7 @@
   text-align: start;
 }
 .manifest-header-text {
-  color: var(--outline-variant);
+  color: var(--outline-variant-background);
   font-family: "spaceGroteskBold";
   font-size: 8px;
   line-height: 12px;
