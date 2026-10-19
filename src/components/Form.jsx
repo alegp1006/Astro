@@ -29,7 +29,7 @@ export function Form() {
           placeholder="example@gmail.com"
         />
       </label>
-      <label className="label">
+      <div className="label">
         <p className="label-text">03 // SELECCIÓN DE SOLUCIÓN / MENSAJE</p>
         <textarea
           value={formData.message}
@@ -39,7 +39,7 @@ export function Form() {
           maxLength={300}
           placeholder="escriba su mensaje aqui.."
         />
-      </label>
+      </div>
       <button className="form-button" type="submit">
         ENVIAR SOLICITUD
       </button>

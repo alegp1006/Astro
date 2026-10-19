@@ -29,6 +29,7 @@ export function Services() {
             "Filtros avanzados y exportación en PDF: Permite a los clientes filtrar por categorías/ingredientes y descargar el menú completo en formato PDF para consulta sin conexión.",
             "Soporte offline y persistencia de datos: La información permanece accesible para los clientes incluso ante caídas o inestabilidad de la red.",
           ]}
+          demoLinkHref={"https://"}
         />
         <ServiceCard
           headerNum={"02"}
@@ -47,6 +48,7 @@ export function Services() {
             "Integración de botones de conversión directa (contacto por WhatsApp, formularios y enlaces a redes sociales).",
             "Código limpio y optimizado para lograr máxima velocidad de carga en dispositivos móviles y conexiones de ancho de banda limitado.",
           ]}
+          demoLinkHref={"https://"}
         />
       </section>
     </section>

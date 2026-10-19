@@ -17,7 +17,7 @@
 }
 .margin-form-info > p {
   font-family: "spaceGroteskBold";
-  font-size: 10px;
+  font-size: 12px;
   line-height: 12px;
   letter-spacing: 0.5px;
   color: var(--outline);
@@ -79,7 +79,7 @@
 
 .social-media-title {
   font-family: "spaceGroteskBold";
-  font-size: 10px;
+  font-size: 12px;
   line-height: 12px;
   letter-spacing: 1px;
   text-decoration: none;

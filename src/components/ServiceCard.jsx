@@ -9,6 +9,7 @@ export function ServiceCard({
   pricing,
   pricingText,
   linkText,
+  demoLinkHref,
   linkHref,
 }) {
   return (
@@ -21,15 +22,20 @@ export function ServiceCard({
         <h3 className="service-card-title">{title}</h3>
         <p className="service-card-text">{text}</p>
         <div className="service-card-pricing">
-          <p className="service-card-pricing-price">{pricing}</p>
+          <h4 className="service-card-pricing-price">{pricing}</h4>
           <p className="service-card-pricing-text">{pricingText}</p>
         </div>
         <ListServices services={listServices} />
       </div>
 
-      <a href={linkHref} className="service-card-link">
-        {linkText}
-      </a>
+      <footer className="buttons-section">
+        <a href={linkHref} className="service-card-link">
+          {linkText}
+        </a>
+        <a href={demoLinkHref} className="service-card-link">
+          VER DEMO EN TIEMPO REAL
+        </a>
+      </footer>
     </article>
   );
 }

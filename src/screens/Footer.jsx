@@ -8,7 +8,7 @@ export function Footer() {
       <section className="footer-container">
         <article className="footer-article">
           <a href="#">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo-astro-principal" />
           </a>
           <p className="footer-article-text">
             Software & Soluciones Digitales. Desarrollamos productos digitales

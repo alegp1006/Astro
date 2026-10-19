@@ -1,5 +1,4 @@
 .service {
-  height: 680px;
   max-width: 450px;
   display: flex;
   flex-direction: column;
@@ -94,8 +93,20 @@
 }
 .service-card-pricing-text {
   font-family: "spaceGroteskBold";
-  font-size: 10px;
+  font-size: 12px;
   line-height: 12px;
   letter-spacing: 1px;
   color: var(--outline);
+}
+.buttons-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media screen and (width > 700px) {
+  .service-card-text-header {
+    font-size: 12px;
+  }
 }

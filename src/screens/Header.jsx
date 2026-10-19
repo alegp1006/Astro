@@ -13,7 +13,10 @@ export function Header() {
       <section className="header-section">
         <Logo logo={logo} />
 
-        <label className="menu-button" htmlFor={menuCheckboxId}>
+        <label
+          className="menu-button"
+          title="menu-drop-down"
+          htmlFor={menuCheckboxId}>
           <MenuOpen />
         </label>
         <input id={menuCheckboxId} type="checkbox" hidden />
